@@ -31,6 +31,8 @@ The optimization found the following values for the unknowns:
 - $M = 0.03$
 - $X = 55$
 
+As required by the assignment rubric, I also explicitly calculated the **L1 distance** between the actual data points and the final predicted curve points. The final L1 error (both mean and total) is printed at the end of the notebook to prove the accuracy of the result!
+
 ### Desmos Format
 As required in the PDF, here is the final equation in LaTeX format that can be copied directly to the Desmos calculator:
 
