@@ -4,7 +4,7 @@ This repository contains my solution for the AI R&D Assignment to find the unkno
 
 ## Approach and Thought Process
 
-Here is the step-by-step process I followed, which you can also see in the `notebook/assigmnet.ipynb` file.
+Here is the step-by-step process I followed, which you can also see in the `assigmnet.ipynb` file.
 
 ### 1. Exploratory Data Analysis (EDA)
 First, I loaded the `xy_data.csv` to see what the data looks like. I checked the shape and plotted a simple scatter plot. It looked like a wavy curve. 
