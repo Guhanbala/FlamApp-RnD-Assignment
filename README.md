@@ -41,3 +41,12 @@ As required in the PDF, here is the final equation in LaTeX format that can be c
 ```
 
 Thank you for reviewing my assignment!
+
+## Citations / References
+
+- **SciPy Optimization Library** (used for Differential Evolution and Nelder-Mead):
+  Virtanen, P., Gommers, R., Oliphant, T. E., Haberland, M., Reddy, T., Cournapeau, D., ... & SciPy 1.0 Contributors. (2020). SciPy 1.0: fundamental algorithms for scientific computing in Python. *Nature methods*, 17(3), 261-272.
+- **Rotation Matrices** (insight used to reformulate the objective function):
+  Weisstein, Eric W. "Rotation Matrix." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/RotationMatrix.html
+- **Pandas Library** (used for Data Loading & EDA):
+  McKinney, W. (2010). Data structures for statistical computing in python. In *Proceedings of the 9th Python in Science Conference* (Vol. 445, pp. 51-56).
