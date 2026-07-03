@@ -7,8 +7,7 @@ This repository contains my solution for the AI R&D Assignment to find the unkno
 Here is the step-by-step process I followed, which you can also see in the `assigmnet.ipynb` file.
 
 ### 1. Exploratory Data Analysis (EDA)
-First, I loaded the `xy_data.csv` to see what the data looks like. I checked the shape and plotted a simple scatter plot. It looked like a wavy curve. 
-
+First, I loaded the `xy_data.csv` file and performed some basic exploratory data analysis to understand the dataset. I checked its dimensions, data types, summary statistics, and missing values. Finally, I plotted the points using a scatter plot to observe the overall shape of the data. The plot showed a smooth, continuous curve, suggesting that the points were generated from an underlying parametric equation.
 ### 2. Initial Attempt (Point-by-Point)
 At first, I thought that the rows in the CSV file were in the exact order of $t$ from 6 to 60. So I made a simple loss function that compares each data point to the equation by assuming $t$ increases linearly.
 I tried using simple optimizers like **Random Search** and **Nelder-Mead** on this. But they all got stuck at very high errors and gave almost the same bad loss. This made me realize that the optimization algorithm was not the main problem, but my assumption about $t$ was wrong. 
