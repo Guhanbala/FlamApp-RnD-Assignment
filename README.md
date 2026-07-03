@@ -2,6 +2,24 @@
 
 This repository contains my solution for the AI R&D Assignment to find the unknown variables ($\theta$, $M$, $X$) for the given parametric curve.
 
+## Repository Structure
+
+```text
+FlamApp-RnD-Assignment/
+│
+├── data/
+│   └── xy_data.csv                  # Dataset provided for the assignment
+│
+├── docs/
+│   └── AI_R&D Assignment.pdf        # Original assignment description
+│
+├── notebook/
+│   └── assignment.ipynb             # Complete implementation and analysis
+│
+└── README.md                        # Project overview and methodology
+```
+The implementation is organized into separate folders for the dataset, assignment documentation, and the notebook containing the complete solution and analysis.
+
 ## Approach and Thought Process
 
 Here is the step-by-step process I followed, which you can also see in the `assigmnet.ipynb` file.
